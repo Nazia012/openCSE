@@ -3,7 +3,7 @@ import { Ch0Content } from "../content/chapter0";
 import { Ch1Content } from "../content/chapter1";
 import { Ch2Content } from "../content/chapter2";
 import { Ch3Content } from "../content/chapter3";
-// import { Ch4Content } from "../content/chapter4";
+import { Ch4Content } from "../content/chapter4";
 // import { Ch5Content } from "../content/chapter5";
 // import { Ch6Content } from "../content/chapter6";
 // import { Ch7Content } from "../content/chapter7";
@@ -40,11 +40,11 @@ const chapters = [
     component: Ch3Content,
   },
 
-  // {
-  //   id: "ch4",
-  //   title: "Process Synchronization",
-  //   component: Ch4Content,
-  // },
+  {
+    id: "ch4",
+    title: "Process Synchronization",
+    component: Ch4Content,
+  },
 
   // {
   //   id: "ch5",
