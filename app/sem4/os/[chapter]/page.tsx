@@ -1,6 +1,6 @@
 import Link from "next/link";
 import { Ch0Content } from "../content/chapter0";
-// import { Ch1Content } from "../content/chapter1";
+import { Ch1Content } from "../content/chapter1";
 // import { Ch2Content } from "../content/chapter2";
 // import { Ch3Content } from "../content/chapter3";
 // import { Ch4Content } from "../content/chapter4";
@@ -22,11 +22,11 @@ const righteous = Righteous({
 const chapters = [
   { id: "ch0", title: "Course Outline", component: Ch0Content },
 
-  // {
-  //   id: "ch1",
-  //   title: "Introduction to Operating Systems",
-  //   component: Ch1Content,
-  // },
+  {
+    id: "ch1",
+    title: "Introduction to Operating Systems",
+    component: Ch1Content,
+  },
 
   // {
   //   id: "ch2",
